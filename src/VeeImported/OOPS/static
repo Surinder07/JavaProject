@@ -1,0 +1,87 @@
+static
+------
+
+static variables / static methods.
+
+static variables ( a variable that is shared by multiple objects).
+
+
+static String companyName = "vee software solutions private limited";
+if this variable used 100 bytes.
+
+if address of variable is 1000
+
+
+VeeCompany vee1 = new VeeCompany();
+VeeCompany vee2 = new VeeCompany();
+VeeCompany vee3 = new VeeCompany();
+VeeCompany vee4 = new VeeCompany();
+VeeCompany vee5 = new VeeCompany();
+VeeCompany vee6 = new VeeCompany();
+VeeCompany vee7 = new VeeCompany();
+VeeCompany vee8 = new VeeCompany();
+ 
+
+only 100 bytes are used.
+
+all vee1 to vee8 objects shared 1000 address of static variable.
+companyName.
+
+
+
+String companyName = "vee software solutions private limited";
+each object contain its own copy of data.
+vee1 1000
+vee2 1100
+vee3 1200
+
+
+totatmemory = 100 * number of objects
+tm = 100 * 8 = 800
+
+
+static String bankName = "State Bank Of Patiala";
+
+
+static integer variable.
+-----------------------
+
+they retain there values between function calls.
+
+
+
+
+static methods are called class methods.
+because they r accesed wid class name and . dot operator
+other methods are called by creating objects.
+
+class STesting
+{
+	private static int counter;
+	
+	public static int getCounter()
+	{
+		return ++counter;
+	}
+	
+}
+
+we can call wid object but
+this is not a right way to call any static method.
+
+
+public class StaticTesting {
+
+	
+	public static void main(String[] args) {
+		
+		
+	System.out.println("Counter : " +  STesting.getCounter());	
+		
+		
+	}
+	
+}
+
+
+

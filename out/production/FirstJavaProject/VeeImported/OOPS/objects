@@ -1,0 +1,176 @@
+object
+	
+		instance of the class.
+
+		objects are created using classes.
+		
+		
+		
+	class My
+	{}
+	class Your
+	{
+		public static void main(String arg[])
+		{
+			My m = new My();  constructor
+		}
+	}
+		
+	My this is a class.
+	m object reference  ( object pointer)
+	 which is pointing to object.
+	 and 
+	 object is created in memory.
+	 object reference ( hold address of object)
+	 	
+		
+		object reference actual is address of the object.
+		
+		
+		
+		My m1 = new My();  1000
+		My m2 = new My();  1050
+		My m3 = new My();  1100
+		
+		
+		here there are three object references.
+		and
+		three objects,
+		
+		any time new operator is used means
+		new object is created.
+		we have 3 object references and all are poting to different memory.
+		
+		
+		
+		
+		
+		
+		
+		
+		My m4 = new My(); // 1000
+		My m5 = m4;  1000
+		My m6 = m4;  1000
+		My m7 = m5;  1000
+		
+		
+		we have four object references all are poting to same memory. 
+		
+		
+		
+	class 
+	
+	class Student
+	{
+		private int id;  // properties
+		private String name;
+		
+		// they are acccessed by creating the object.
+		// object is an instance of the class.
+		public void input() {}   instance methods. 
+		public void show() {}
+	}
+	
+	Student student1 = new Student();
+	Student student2 = new Student();
+	
+	
+Object characteristics
+----------------------
+
+	object state    ( properties ) instance variable
+	object behaviour  ( methods)   instance methods
+	object identity.  ( how objects are different) wid addresses.
+
+
+	
+		classes  relationns.
+		
+		has a relation
+		is a relation.
+		class Ac
+		{}
+		
+		class MRFTypes
+		{}
+		
+		class SonyMusic
+		{}
+		
+		class Maruti
+		{
+			Ac ac = new Ac();
+			MRFTyres tyres = new MRFTyres();
+			SonyMusic music = new SonyMusic();
+		}
+		
+		
+		class has a relation.    
+		
+		
+		
+		
+		
+		class Car
+		{}
+		class Maruti extends Car
+		{}
+		
+		Maruti is a car
+		
+		
+		
+		class Animal
+		{}
+		
+		class Dog extends Animal
+		{}
+		
+		
+		class JermanSheffed extends Dog
+		{}
+		
+		
+		class LabraDor extends Dog
+		{}
+		
+		
+		
+		dog is an animal.
+		
+		
+		
+		class Cat
+		{}
+		
+		class Lion extends Cat
+		{}
+		
+		Lion is called big cat.
+		
+		
+		
+		
+		
+		
+		
+		class Shape
+		{}
+		
+		class Rectangle extends Shape
+		{}
+		
+		class Square extends Shape
+		{}
+		
+		
+		is a relation.
+		
+		
+		
+		
+		
+		
+							
+		
+		

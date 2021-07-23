@@ -1,0 +1,146 @@
+three
+main things
+
+	1. encapsulation
+	
+		data hiding
+		we define properties in private section
+		and
+		methods in public section.
+		methods can be private , protected , public , default.
+		
+		if properties are in  public section
+		then
+		we are breaking encapsulation rule.
+		
+		
+		
+		
+	
+	
+	2. inheritance
+	
+	
+		derivation.
+			new class inherit properties of existing class.
+			in java existing class is called super class.
+			new class is called derived class.
+			
+			in java Object class is super class of the java classes.
+			user defined / predefined .
+			directly / indirectly...
+			
+			this class is defined in lang package.
+			
+			java.lang.Object
+			
+	
+		multple inheritence is not implemented in java.
+		this inheritence is implemented by interfaces.
+		
+		interface A
+		{}
+		interface B
+		{}
+		
+		interface C
+		{}
+		
+		class D implements A , B , C
+		{}
+		 
+			
+	multiple super classes and one derived class.
+	
+	
+	
+	
+	3. polymorphism.
+	
+		
+		one name many forms.
+		
+		in java functions are called methods.
+		
+		1. function overloading 
+		2. function overriding.
+		
+		
+		
+		function overloading.
+		more than one method all wid same name
+		different parameters
+		and return types can b different or same.
+		
+		class Addition
+		{
+			public int sum(int,int);
+			public float sum(float,float);
+			public double sum(double,double);
+			public float sum(float,int);  // if int ( 3.3 , 3)  result 6
+			// if float ( 3.3 , 2) result 5.3 
+			public double sum(double,float); // 10 digit
+			// double 16
+			// if value 4444444444 44.3, 333.3) 
+		}
+		
+		class Date
+		{
+			public void date(int,int,int);
+			public void date(String,int,int);
+			public void date(int,String,int);
+			public void date(int,int,int,int);
+		}
+		
+		method overloading is implemented in same class.
+		
+		
+		
+		method overriding.
+		------------------
+		
+		a method wid same name , return type , parameters.
+		is defined in both
+		super class and derived class
+		
+		implementation of methods will be different.
+		
+		
+		class A
+		{
+			public void wish()
+			{
+				out.print("Hi How R U");
+			}
+		}
+		
+		class B extends A
+		{
+			public void wish()
+			{
+				out.print("Kee Hal Hai");
+			}
+		}
+		
+		class C extends A
+		{
+			public void wish()
+			{
+				out.print("Kaise Ho");
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+
+
